@@ -1,0 +1,7 @@
+/* Tablet (768px and up): nav links sit in one row using fluid percentage widths */
+nav a {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+main { padding: 2rem; }

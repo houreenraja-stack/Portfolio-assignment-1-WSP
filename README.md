@@ -1,1 +1,1 @@
-# Portfolio-assignment-1-W-S---P
+# Portfolio-assignment-1-WSP

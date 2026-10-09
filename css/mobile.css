@@ -1,0 +1,48 @@
+/* Color palette */
+:root {
+  --dark: #533592;
+  --mid: #7667b3;
+  --soft: #c7b9d7;
+  --light: #F1FAEE;
+  --accent: #da5399;
+}
+
+/* Include padding in element widths so fluid percentages add up correctly */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.5;
+}
+
+/* Header uses a plain top to bottom linear gradient */
+header {
+  background: linear-gradient(var(--dark), var(--mid));
+}
+
+/* On phones the links stack vertically, one per line */
+nav a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover { background: var(--accent); }
+
+main { padding: 1rem; }
+
+/* Images and videos shrink to fit the screen but never stretch past their size */
+img, video { max-width: 100%; height: auto; }
+
+/* Footer uses an angled (45 degree) linear gradient */
+footer {
+  clear: both;
+  padding: 1rem;
+  color: #ffffff;
+  background: linear-gradient(45deg, var(--dark), var(--mid));
+}
+footer a { color: #ffffff; }

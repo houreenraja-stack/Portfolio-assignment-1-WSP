@@ -36,3 +36,28 @@ I created the palette at Adobe Color: https://new.express.adobe.com/id/urn:aaid:
 
 The colors are stored as CSS variables at the top of `mobile.css`, so every page
 uses the same scheme.
+
+## Resources and Sources
+
+### Course lectures (INFR3120)
+
+- **Lecture 1: I used it for the basic page structure and the colour scheme ideas.
+- **Lecture 2: HTML5 and CSS: Embedding Native Video and Building Forms. I used this for the
+  `<video>` tag with `controls` and `poster`, the video styling (padding, border and shadow),
+  the `mailto` form action, labels and inputs, and the HTML5 validation like `required`,
+  `type="email"` and `type="tel"`.
+- **Lecture 3: I used this for the fluid design idea sizing things in percentages instead of fixed pixels, and for linking separate CSS files for different screen sizes with media queries (`mobile.css`, `tablet.css` and `laptop.css`). 
+- **Lecture 4: I used the hover pseudo-class idea from this lecture for the nav links and the Submit button, so they change colour when you point at them.
+
+### Websites I used
+- [W3Schools CSS Examples](https://www.w3schools.com/css/css_examples.asp): I used this
+  to look up CSS syntax and layout examples when I wasn't sure how something worked.
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/): I used this as a reference
+  for HTML5 elements, semantic tags and form attributes.
+- [Adobe Color](https://color.adobe.com/create): I used this to create my colour palette,
+  which is explained in the Color scheme section above.
+
+### AI help
+I used Claude AI (https://claude.ai) while building this site for error explanations and with formatting the
+GUI / Interface section of this README. I tested and edited everything, and I added
+comments in the code so I can explain what each part does. 

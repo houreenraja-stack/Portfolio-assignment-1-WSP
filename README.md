@@ -1,4 +1,7 @@
-# Portfolio-assignment-1-WSP
+# Portfolio Website - INFR3120 Assignment 1
+**Live site:** https://houreenraja-stack.github.io/Portfolio-assignment-1-WSP/
+**GitHub repository:** https://github.com/houreenraja-stack/Portfolio-assignment-1-WSP
+
 ## GUI / Interface
 
 ### Responsive design (fluid design and media queries)

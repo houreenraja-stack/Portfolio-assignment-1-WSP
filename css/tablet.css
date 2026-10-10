@@ -1,7 +1,16 @@
-/* Tablet (768px and up): nav links sit in one row using fluid percentage widths */
-nav a {
-  display: inline-block;
-  width: 24%;
-  text-align: center;
+/* Tablet media query for screens 768px wide and up */
+@media (min-width: 768px) {
+  /* Nav links sit in one row using fluid percentage widths */
+  nav a {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+  }
+  main { padding: 2rem; }
+
+  /* Two projects per row using floats and fluid widths */
+  .project { float: left; width: 48%; margin: 1%; }
+
+  /* Stops the floated projects from collapsing the page */
+  main::after { content: ""; display: block; clear: both; }
 }
-main { padding: 2rem; }

@@ -1,12 +1,15 @@
-/* Laptop (1024px and up): center the content and limit its width */
-main {
-  width: 80%;
-  max-width: 1100px;
-  margin: 0 auto;
+/* Laptop media query for screens 1024px wide and up */
+@media (min-width: 1024px) {
+  /* Center the content and limit its width */
+  main {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* Three projects per row */
+  .project { width: 31%; }
+
+  /* Keep the form a readable width */
+  form { max-width: 600px; }
 }
-
-/* Three projects per row */
-.project { width: 31%; }
-
-/* Keep the form a readable width on laptops */
-form { max-width: 600px; }

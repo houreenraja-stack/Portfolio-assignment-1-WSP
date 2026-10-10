@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>|Contact Me</title>
+  <title>Houreen Raja | Contact Me</title>
   <!-- Mobile CSS is the base and loads on every screen -->
   <link rel="stylesheet" href="css/mobile.css">
   <!-- Tablet CSS only applies 768px wide and up -->
@@ -23,13 +23,38 @@
 
   <main>
     <article>
-      <h1>Hello, My Name is Houreen Raja</h1>
-      <p>I am a 3rd year Business and IT Tech Management student.</p>
+      <h1>Contact Me</h1>
+      <p>Send me your questions, comments and project related queries.</p>
+
+      <!-- mailto action from the Week 2 notes opens the visitos email program with the form data -->
+      <form action="mailto:houreen.raja@ontariotechu.net" method="post" enctype="text/plain" name="contactform">
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name"
+               required minlength="2" maxlength="50"
+               pattern="[A-Za-z ]+" title="Use letters and spaces only (2 to 50 characters)">
+
+        <label for="email">Your Email</label>
+        <!-- type=email makes the browser check the email format -->
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="phone">Cell No.</label>
+        <!-- type=tel with pattern exactly 10 digits -->
+        <input type="tel" id="phone" name="phone" placeholder="4165551234"
+               required pattern="[0-9]{10}" title="Enter a 10 digit phone number, numbers only">
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="6" placeholder="Question, comment or query..."
+                  required minlength="10" maxlength="500"></textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
     </article>
   </main>
 
   <footer>
-    <p>Contact: <a href="houreen.raja@ontariotechu.net">youremail@example.com</a></p>
+    <address>Contact: <a href="mailto:houreen.raja@ontariotechu.net">houreen.raja@ontariotechu.net</a></address>
     <p>&copy; 2026 Houreen Raja</p>
   </footer>
 </body>

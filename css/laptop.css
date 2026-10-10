@@ -7,3 +7,6 @@ main {
 
 /* Three projects per row */
 .project { width: 31%; }
+
+/* Keep the form a readable width on laptops */
+form { max-width: 600px; }

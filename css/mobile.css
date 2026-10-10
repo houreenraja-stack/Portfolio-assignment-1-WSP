@@ -57,6 +57,34 @@ video {
   box-shadow: 8px 8px 5px var(--mid);
 }
 
+/* Contact form labels on their own line, fields fill the width */
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 2px solid var(--mid);
+  border-radius: 4px;
+}
+/* Visible keyboard focus outline for accessibility */
+form input:focus, form textarea:focus { outline: 3px solid var(--accent); }
+form input[type="submit"], form input[type="reset"] {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: var(--dark);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form input[type="submit"]:hover { background: var(--mid); }
+
 /* Footer uses an angled (45 degree) linear gradient */
 footer {
   clear: both;

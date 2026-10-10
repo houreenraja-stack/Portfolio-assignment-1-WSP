@@ -4,3 +4,6 @@ main {
   max-width: 1100px;
   margin: 0 auto;
 }
+
+/* Three projects per row */
+.project { width: 31%; }

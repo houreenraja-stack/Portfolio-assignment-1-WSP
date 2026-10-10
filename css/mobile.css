@@ -38,6 +38,14 @@ main { padding: 1rem; }
 /* Images and videos shrink to fit the screen but never stretch past their size */
 img, video { max-width: 100%; height: auto; }
 
+/* Projects stack full width on phones */
+.project {
+  background: #ffffff;
+  border-left: 5px solid var(--accent);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* Footer uses an angled (45 degree) linear gradient */
 footer {
   clear: both;
